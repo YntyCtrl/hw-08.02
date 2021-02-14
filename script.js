@@ -23,18 +23,26 @@ password.addEventListener('input', function (event) { // при изменени
 });
 
 
+
+
+
+
 let randomdiv = document.querySelector('#randomdiv');
+let innum = document.querySelector('#number')
 
 button.addEventListener('click', function (event) {
 
     let num = Math.ceil(Math.random() * 5);
 
-    if (num == 4){
-        randomdiv.innerText = "4";
+    if (innum.value == num) {
+        randomdiv.innerText = "good " + num;
+    }
+    else {
+        randomdiv.innerText = "bad " + num;
     }
 
 
-    
+
 
 
 })

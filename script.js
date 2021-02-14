@@ -57,7 +57,9 @@ plus.addEventListener('click', function (event) {
 minus.addEventListener('click', function (event) {
     solution.innerText = Number(additive.value) - Number(connective.value);
 })
-
+multipl.addEventListener('click', function (event) {
+    solution.innerText = Number(additive.value) * Number(connective.value);
+})
 
 
 

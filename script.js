@@ -63,7 +63,9 @@ multipl.addEventListener('click', function (event) {
 ower.addEventListener('click', function (event) {
     solution.innerText = Number(additive.value) / Number(connective.value);
 })
-
+degree.addEventListener('click', function (event) {
+    solution.innerText = Number(additive.value) ** Number(connective.value);
+})
 
 
 

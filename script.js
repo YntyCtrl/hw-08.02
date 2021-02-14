@@ -49,9 +49,10 @@ button.addEventListener('click', function (event) {
 
 let additive = document.querySelector('#additive');
 let connective = document.querySelector('#connective');
+let solution = document.querySelector('#solution');
 
 plus.addEventListener('click', function(event){
-    additive + connective
+    
 });
 
 

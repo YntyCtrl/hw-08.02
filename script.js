@@ -54,6 +54,9 @@ let solution = document.querySelector('#solution');
 plus.addEventListener('click', function (event) {
     solution.innerText = Number(additive.value) + Number(connective.value);
 })
+minus.addEventListener('click', function (event) {
+    solution.innerText = Number(additive.value) - Number(connective.value);
+})
 
 
 

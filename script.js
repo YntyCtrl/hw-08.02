@@ -51,9 +51,9 @@ let additive = document.querySelector('#additive');
 let connective = document.querySelector('#connective');
 let solution = document.querySelector('#solution');
 
-plus.addEventListener('click', function(event){
-    
-});
+plus.addEventListener('click', function (event) {
+    solution.innerText = Number(additive.value) + Number(connective.value);
+})
 
 
 
